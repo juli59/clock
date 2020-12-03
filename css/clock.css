@@ -1,0 +1,30 @@
+html {
+    font-size: 48px;
+    background-color: rgb(0, 0, 0);
+    
+       
+    }
+@font-face {
+        font-family: "cyberverse";
+        src: url("cyberverse/Cyberverse Bold Italic.otf");
+        font-weight: 500;
+    }
+* {
+    box-sizing: border-box;
+}
+.clock {
+    align-items: center;
+   color: rgb(110, 212, 110);
+    display: flex;
+    transform: translateY(7rem);
+    justify-content: center; 
+    width: 100%;
+    height: 100%; 
+    font-family: "cyberverse";  
+}
+
+.clock-face {  
+ align-items: center;
+ justify-content: center;    
+}
+
